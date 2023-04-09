@@ -1,0 +1,18 @@
+.logoArg {
+  width: 46px;
+  height: 46px;
+  margin-top: 0;
+}
+
+.name-program {
+  display: flex;
+  flex-direction: row;
+  color: rgb(10, 9, 9);
+  align-items: center;
+  line-height: 15px;
+  font-size: 22px;
+}
+
+.img-logo {
+  margin-left: 15px;
+}
