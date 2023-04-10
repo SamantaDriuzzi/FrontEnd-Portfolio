@@ -1,0 +1,13 @@
+h1 {
+  color: #b36b6b;
+}
+
+p {
+  color: var(--letras-color);
+  font-size: 2rem;
+}
+
+img {
+  border-radius: 50%;
+  border: solid #b36b6b;
+}

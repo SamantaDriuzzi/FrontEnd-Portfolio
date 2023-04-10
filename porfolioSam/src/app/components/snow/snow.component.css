@@ -1,0 +1,66 @@
+/* ANIMACION FONDO */
+.container welcome-section {
+  background-color: var(--background-welcome) no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes snow {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #dcf8fb;
+  border-radius: 50%;
+  animation: snow 10s linear infinite;
+  z-index: 1;
+}
+
+.snowflake:nth-child(1) {
+  top: 20%;
+  left: 20%;
+  animation-delay: 0s;
+}
+
+.snowflake:nth-child(2) {
+  top: 40%;
+  left: 50%;
+  animation-delay: 1s;
+}
+
+.snowflake:nth-child(3) {
+  top: 60%;
+  left: 80%;
+  animation-delay: 2s;
+}
+
+.snowflake:nth-child(4) {
+  top: 80%;
+  left: 10%;
+  animation-delay: 3s;
+}
+
+.snowflake:nth-child(5) {
+  top: 20%;
+  left: 20%;
+  animation-delay: 4s;
+}
+
+.snowflake:nth-child(6) {
+  top: "30%";
+  left: "40%";
+  animation-delay: 5s;
+}
