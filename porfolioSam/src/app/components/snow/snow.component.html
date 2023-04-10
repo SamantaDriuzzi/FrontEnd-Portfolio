@@ -1,0 +1,9 @@
+<div class="container">
+  <div
+    class="snowflake"
+    *ngFor="let snowflake of snowflakes"
+    [style.top]="snowflake.top"
+    [style.left]="snowflake.left"
+    [style.animation-delay]="snowflake.delay"
+  ></div>
+</div>

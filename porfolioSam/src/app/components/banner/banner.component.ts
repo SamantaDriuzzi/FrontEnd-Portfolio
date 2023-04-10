@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./banner.component.css'],
 })
 export class BannerComponent {
-  nombre = 'Samanta';
+  nombre = ' Samanta';
   saludo = 'Hola! Yo soy';
   titulo = 'Full Stack Developer Jr';
 }
