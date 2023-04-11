@@ -1,8 +1,9 @@
 :root {
-  --background-header: #e7c8a0;
-  --background-welcome: #fef9d7;
-  --secondary-color: #d4a373;
-  --letras-color: #d4a373;
+  --background-header: #b08968;
+  --background: #fef9d7;
+  --dark-letters: #d4a373;
+  --clear-letters: #d4a373;
+  --big-letters: #b36b6b;
 }
 
 * {
@@ -40,7 +41,7 @@ li:hover {
 }
 
 .nav-link:hover {
-  color: var(--secondary-color);
+  color: #ddb892;
 }
 
 nav {
@@ -62,6 +63,25 @@ li {
 }
 
 /*SECTION WELCOME*/
+.background-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2.1rem;
+  color: var(--background-header);
+  font-weight: bold;
+  line-height: 0.6rem;
+  text-align: center;
+}
 
 .welcome-section {
   display: flex;
@@ -94,7 +114,7 @@ p {
 .project-tile {
   max-width: 640px;
   margin: 0 auto 2rem auto;
-  background-color: var(--secondary-color);
+  background-color: var(--dark-letters);
   padding: 20px;
   font-size: 1.5rem;
 }
@@ -106,7 +126,7 @@ img {
 }
 
 img:hover {
-  border: 4px solid var(--secondary-color);
+  border: 4px solid var(--dark-letters);
 }
 
 .block-project {
@@ -130,7 +150,7 @@ p[class="project-name"] {
 }
 
 p[class="project-name"]:hover {
-  color: var(--secondary-color);
+  color: var(--dark-letters);
 }
 
 .link-project,
@@ -142,7 +162,7 @@ p[class="project-name"]:hover {
 }
 
 .botom {
-  background-color: var(--secondary-color);
+  background-color: var(--dark-letters);
   color: var(--hojas-color);
   width: 150px;
   margin-right: 50%;

@@ -1,0 +1,8 @@
+.experience-title {
+  max-width: 640px;
+  margin: 0 auto 2rem 0;
+  background-color: var(--background-header);
+  padding: 20px;
+  font-size: 2rem;
+  color: var(--big-letters);
+}

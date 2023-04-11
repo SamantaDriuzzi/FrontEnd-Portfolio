@@ -8,6 +8,7 @@ import { LoginComponent } from './components/header/login/login.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { SnowComponent } from './components/snow/snow.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SnowComponent } from './components/snow/snow.component';
     BannerComponent,
     AcercaDeComponent,
     SnowComponent,
+    ExperienceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
