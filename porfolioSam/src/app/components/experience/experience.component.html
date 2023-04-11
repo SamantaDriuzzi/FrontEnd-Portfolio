@@ -1,1 +1,15 @@
-<div class="experience-title">{{ titulo }}</div>
+<section class="experience-section">
+  <div class="experience-title">{{ titulo }}</div>
+  <ul>
+    <li *ngFor="let experience of experiences">
+      <h3>{{ experience.title }}</h3>
+      <br />
+      <p>
+        {{ experience.company }} |
+        {{ getExperienceDuration(experience.startDate) }}
+      </p>
+      <img [src]="experience.logo" alt="logo {{ experience.company }} " />
+      <p>{{ experience.description }}</p>
+    </li>
+  </ul>
+</section>

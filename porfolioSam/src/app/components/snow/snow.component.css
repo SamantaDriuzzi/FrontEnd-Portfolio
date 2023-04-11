@@ -21,8 +21,8 @@
 
 .snowflake {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background-color: #ffdefa;
   border-radius: 50%;
   animation: snow 10s linear infinite;
