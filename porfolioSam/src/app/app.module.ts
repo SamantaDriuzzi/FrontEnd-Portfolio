@@ -9,6 +9,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { SnowComponent } from './components/snow/snow.component';
 import { ExperienceComponent } from './components/experience/experience.component';
+import { MenuHamburguesaComponent } from './components/menu-hamburguesa/menu-hamburguesa.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
     AcercaDeComponent,
     SnowComponent,
     ExperienceComponent,
+    MenuHamburguesaComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
