@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class BannerComponent {
   nombre = ' Samanta';
-  saludo = 'Hola! Yo soy';
+  saludo = 'Hola!';
   titulo = 'Full Stack Developer Jr';
 }

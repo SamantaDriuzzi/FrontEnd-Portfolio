@@ -1,10 +1,25 @@
 h1 {
-  color: #b36b6b;
+  color: var(--big-letters);
+  font-family: "Allison", cursive;
+  font-size: 180px;
+  line-height: 6px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+h2 {
+  color: var(--big-letters);
+  font-size: 2rem;
+  margin-left: 20px;
+  font-weight: 300;
+  letter-spacing: -2px;
 }
 
 p {
-  color: var(--letras-color);
-  font-size: 2rem;
+  color: var(--background-header);
+  font-size: 1 rem;
+  line-height: 63px;
+  margin-top: 50px;
 }
 
 img {
