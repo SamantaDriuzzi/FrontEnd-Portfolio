@@ -1,7 +1,7 @@
 :root {
   --background-header: #b08968;
   --background: #fef9d7;
-  --dark-letters: #d4a373;
+  --dark-letters: #281502;
   --clear-letters: #d4a373;
   --big-letters: #b36b6b;
 }
@@ -18,16 +18,14 @@
 }
 
 #navbar {
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 10%;
-  top: 0px;
-  left: 0;
+  top: 0;
   background-color: var(--background-header);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
 }
 
 .nav-link {
@@ -63,7 +61,8 @@ li {
 }
 
 /*SECTION WELCOME*/
-.background-section {
+.banner-section {
+  margin-top: 7%;
   display: flex;
   flex-direction: column;
   justify-content: center;
