@@ -10,6 +10,7 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { SnowComponent } from './components/snow/snow.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { MenuHamburguesaComponent } from './components/menu-hamburguesa/menu-hamburguesa.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MenuHamburguesaComponent } from './components/menu-hamburguesa/menu-ham
     SnowComponent,
     ExperienceComponent,
     MenuHamburguesaComponent,
+    EducationComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
