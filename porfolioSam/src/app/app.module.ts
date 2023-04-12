@@ -11,6 +11,7 @@ import { SnowComponent } from './components/snow/snow.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { MenuHamburguesaComponent } from './components/menu-hamburguesa/menu-hamburguesa.component';
 import { EducationComponent } from './components/education/education.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { EducationComponent } from './components/education/education.component';
     ExperienceComponent,
     MenuHamburguesaComponent,
     EducationComponent,
+    SkillsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
