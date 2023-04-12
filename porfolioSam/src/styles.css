@@ -82,7 +82,8 @@ p {
   text-align: center;
 }
 
-.welcome-section {
+.welcome-section,
+.education-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
