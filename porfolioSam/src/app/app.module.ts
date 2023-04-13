@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -26,7 +26,7 @@ import { SkillsComponent } from './components/skills/skills.component';
     EducationComponent,
     SkillsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, ProgressbarModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent],
 })
