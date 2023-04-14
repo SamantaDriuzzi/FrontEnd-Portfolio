@@ -1,11 +1,12 @@
-.experience-section {
+/* STYLES SECTIONS */
+.section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.experience-title {
+.section-title {
   width: 640px;
   margin: 0 auto 2rem 0;
   background-color: var(--background-header);
@@ -69,4 +70,8 @@ li {
 
 ul {
   padding: 5%;
+}
+
+.skills {
+  width: 80%;
 }

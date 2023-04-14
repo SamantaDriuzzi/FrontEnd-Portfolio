@@ -12,6 +12,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { MenuHamburguesaComponent } from './components/menu-hamburguesa/menu-hamburguesa.component';
 import { EducationComponent } from './components/education/education.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,12 @@ import { SkillsComponent } from './components/skills/skills.component';
     EducationComponent,
     SkillsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, ProgressbarModule.forRoot()],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ProgressbarModule.forRoot(),
+    NgCircleProgressModule.forRoot({}),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

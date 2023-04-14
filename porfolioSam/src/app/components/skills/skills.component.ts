@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css'],
 })
-export class SkillsComponent {}
+export class SkillsComponent {
+  titulo = '"Hard & Soft Skills"';
+}
