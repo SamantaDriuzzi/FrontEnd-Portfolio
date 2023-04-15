@@ -12,6 +12,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { MenuHamburguesaComponent } from './components/menu-hamburguesa/menu-hamburguesa.component';
 import { EducationComponent } from './components/education/education.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HysSkillsComponent } from './components/hys-skills/hys-skills.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ExperienceComponent,
     MenuHamburguesaComponent,
     EducationComponent,
+    HysSkillsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
