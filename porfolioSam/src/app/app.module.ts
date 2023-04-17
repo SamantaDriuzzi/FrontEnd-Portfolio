@@ -16,6 +16,7 @@ import { HysSkillsComponent } from './components/hys-skills/hys-skills.component
 import { SoftSkillsComponent } from './components/hys-skills/soft-skills/soft-skills.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     EducationComponent,
     HysSkillsComponent,
     SoftSkillsComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
