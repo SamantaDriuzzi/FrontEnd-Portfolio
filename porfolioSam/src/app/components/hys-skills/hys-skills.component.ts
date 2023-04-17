@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HysSkillsComponent {
   titulo = 'Mis habilidades';
-  skills = [
+  Hskills = [
     {
       tecnology: 'HTML',
       percent: 90,
@@ -27,6 +27,28 @@ export class HysSkillsComponent {
       tecnology: 'TS',
       percent: 70,
       logo: 'assets/t-solid.svg',
+    },
+  ];
+  Sskills = [
+    {
+      name: 'Trabajo en Equipo',
+      percent: 50,
+      logo: 'assets/html5.svg',
+    },
+    {
+      name: 'Comunicación',
+      percent: 50,
+      logo: 'assets/html5.svg',
+    },
+    {
+      name: 'Aprendizaje',
+      percent: 90,
+      logo: 'assets/html5.svg',
+    },
+    {
+      name: 'Compromiso',
+      percent: 100,
+      logo: 'assets/html5.svg',
     },
   ];
 }

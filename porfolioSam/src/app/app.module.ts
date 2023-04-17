@@ -13,6 +13,9 @@ import { MenuHamburguesaComponent } from './components/menu-hamburguesa/menu-ham
 import { EducationComponent } from './components/education/education.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HysSkillsComponent } from './components/hys-skills/hys-skills.component';
+import { SoftSkillsComponent } from './components/hys-skills/soft-skills/soft-skills.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -26,8 +29,15 @@ import { HysSkillsComponent } from './components/hys-skills/hys-skills.component
     MenuHamburguesaComponent,
     EducationComponent,
     HysSkillsComponent,
+    SoftSkillsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgbModule,
+    BrowserAnimationsModule,
+    MatProgressSpinnerModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

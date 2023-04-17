@@ -1,14 +1,28 @@
 <section class="section" id="experience"></section>
 <div class="section-title vibrate">{{ titulo }}</div>
-<!-- BARRA DE PROGRESO -->
-<div class="BARRAS">
-  <ng-container *ngFor="let skill of skills">
-    <img class="logo" [src]="skill.logo" alt="logo {{ skill.tecnology }}" />
-    <div class="tecnology">{{ skill.tecnology }}</div>
-    <div class="progress">
-      <div class="percent-bar" [style.width]="skill.percent + '%'">
-        <div class="wheel"></div>
+<div class="habilidades">
+  <!-- HABILIDADES DURAS -->
+  <div class="bar">
+    <ng-container *ngFor="let skill of Hskills">
+      <img class="logo" [src]="skill.logo" alt="logo {{ skill.tecnology }}" />
+      <div class="tecnology">{{ skill.tecnology }}</div>
+      <div class="progress">
+        <div class="percent-bar" [style.width]="skill.percent + '%'">
+          <div class="wheel"></div>
+        </div>
       </div>
-    </div>
-  </ng-container>
+    </ng-container>
+  </div>
+  <!-- HABILIDADES BLANDAS -->
+  <div class="bar">
+    <ng-container *ngFor="let skill of Sskills">
+      <img class="logo" [src]="skill.logo" alt="logo {{ skill.name }}" />
+      <div class="tecnology">{{ skill.name }}</div>
+      <div class="progress">
+        <div class="percent-bar" [style.width]="skill.percent + '%'">
+          <div class="wheel"></div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
 </div>
