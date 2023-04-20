@@ -33,22 +33,22 @@ export class HysSkillsComponent {
     {
       name: 'Trabajo en Equipo',
       percent: 50,
-      logo: 'assets/html5.svg',
+      logo: 'assets/trabajo-en-equipo.svg',
     },
     {
       name: 'Comunicación',
       percent: 50,
-      logo: 'assets/html5.svg',
+      logo: 'assets/comunicación.svg',
     },
     {
       name: 'Aprendizaje',
       percent: 90,
-      logo: 'assets/html5.svg',
+      logo: 'assets/aprendizaje.svg',
     },
     {
       name: 'Compromiso',
       percent: 100,
-      logo: 'assets/html5.svg',
+      logo: 'assets/compromiso.svg',
     },
   ];
 }

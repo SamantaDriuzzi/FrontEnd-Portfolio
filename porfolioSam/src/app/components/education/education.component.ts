@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class EducationComponent {
   titulo = 'Mi educacion';
-  experiences = [
+  educations = [
     {
       title: 'Full Stack Developer Jr',
       company: 'Argentina Programa 4.0',

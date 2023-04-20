@@ -1,3 +1,12 @@
+section {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+
 h1 {
   color: var(--big-letters);
   font-family: "Allison", cursive;
@@ -9,10 +18,11 @@ h1 {
 
 h2 {
   color: var(--big-letters);
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-left: 20px;
-  font-weight: 300;
+  font-weight: inherit;
   letter-spacing: -2px;
+  margin-bottom: -10px;
 }
 
 p {
