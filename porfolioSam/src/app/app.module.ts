@@ -17,6 +17,7 @@ import { SoftSkillsComponent } from './components/hys-skills/soft-skills/soft-sk
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
     NgbModule,
     BrowserAnimationsModule,
     MatProgressSpinnerModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
