@@ -1,7 +1,10 @@
 <section class="experience-section" id="experience">
   <div class="experience-title vibrate">{{ titulo }}</div>
-  <ul>
-    <li *ngFor="let experience of experiences">
+  <div class="expList">
+    <div
+      *ngFor="let experience of experiences"
+      style="display: inline-block; width: 50%"
+    >
       <h3>{{ experience.title }}</h3>
       <br />
       <p>
@@ -10,6 +13,6 @@
       </p>
       <img [src]="experience.logo" alt="logo {{ experience.company }} " />
       <p>{{ experience.description }}</p>
-    </li>
-  </ul>
+    </div>
+  </div>
 </section>
