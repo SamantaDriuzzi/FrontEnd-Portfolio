@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 
 .experience-title {
@@ -39,6 +40,11 @@
     transform: translate(0);
   }
 }
+.expList {
+  display: inline-flex;
+  gap: 30px;
+  margin-top: 80px;
+}
 
 h3 {
   color: var(--dark-letters);
@@ -59,14 +65,5 @@ img {
   height: 85px;
   border-radius: 50%;
   border-color: var(--background-header);
-}
-li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-ul {
-  padding: 5%;
+  margin-left: 40%;
 }

@@ -1,8 +1,9 @@
-.experience-section {
+.education-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 
 .education-title {
@@ -40,6 +41,12 @@
   }
 }
 
+.expList {
+  display: inline-flex;
+  gap: 30px;
+  margin-top: 80px;
+}
+
 h3 {
   color: var(--dark-letters);
   text-align: center;
@@ -59,15 +66,5 @@ img {
   height: 85px;
   border-radius: 50%;
   border-color: var(--background-header);
-  transform: scale(1);
-}
-li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-ul {
-  padding: 5%;
+  margin-left: 40%;
 }

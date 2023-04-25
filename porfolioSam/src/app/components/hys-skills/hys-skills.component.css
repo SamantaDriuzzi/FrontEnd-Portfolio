@@ -1,11 +1,12 @@
-.section {
+.skills-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 
-.section-title {
+.skills-title {
   width: 640px;
   margin: 0 auto 2rem 0;
   background-color: var(--background-header);
@@ -39,7 +40,10 @@
     transform: translate(0);
   }
 }
-
+.expList {
+  display: inline-flex;
+  gap: 30px;
+}
 h3 {
   color: var(--dark-letters);
   text-align: center;
@@ -55,8 +59,10 @@ p {
 }
 
 /* HABILIDADES DURAS Y BLANDAS */
+
 .habilidades {
   display: flex;
+  width: 100%;
 }
 .bar {
   width: 50%;

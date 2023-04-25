@@ -9,10 +9,15 @@
   flex-direction: row;
   color: rgb(10, 9, 9);
   align-items: center;
-  line-height: 15px;
+  line-height: 18px;
   font-size: 22px;
+  margin: auto;
+  gap: 4px;
 }
 
-.img-logo {
-  margin-left: 15px;
+.sectionLogo {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  margin: auto 0 auto 2%;
 }
